@@ -1,0 +1,12 @@
+.frame {
+    background-image: url(images/left_bot.png), url(images/left_top.png), url(images/right_top.png), url(images/right_bot.png), url(images/top.png), url(images/bottom.png), url(images/side.png), url(images/right.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x, repeat-x,repeat-y, repeat-y;
+    background-position: bottom left, top left, top right, bottom right, top, bottom, left, right;
+
+}
+
+.text {
+    text-align: center;
+    font-size: 30px;
+    padding: 150px
+}

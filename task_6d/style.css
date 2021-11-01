@@ -6,23 +6,17 @@
 }
 
 .rating_item {
-    position: absolute;
-    opacity: 0;
-}
-
-.item_label {
     cursor: pointer;
     color: black;
 }
 
-.item_label::before {
+.rating_item::before {
     content: '★';
     display: block;
 }
 
-.item_label:hover,
-.item_label:hover ~ .item_label,
-.item_label:checked ~ .item_label:hover {
+.rating_item:hover ~ .rating_item,
+ .rating_item:hover {
     color: red;
 }
 

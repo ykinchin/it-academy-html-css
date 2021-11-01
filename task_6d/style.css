@@ -1,0 +1,30 @@
+
+.rating_items {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating_item {
+    position: absolute;
+    opacity: 0;
+}
+
+.item_label {
+    cursor: pointer;
+    color: black;
+}
+
+.item_label::before {
+    content: '★';
+    display: block;
+}
+
+.item_label:hover,
+.item_label:hover ~ .item_label,
+.item_label:checked ~ .item_label:hover {
+    color: red;
+}
+
+
+

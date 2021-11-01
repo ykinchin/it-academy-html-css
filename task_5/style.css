@@ -1,0 +1,44 @@
+html, body {
+    margin: 0%;
+    height: 100%;
+}
+
+header, footer {
+    background-color: aquamarine;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    color: blue;
+    padding: 20px;
+    min-height: 5%;
+    clear: both;
+}
+
+aside {
+    background-color: yellow;
+    float: left;
+    word-break: break-all;
+    min-height: 80%;
+    width: 200px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.main {
+    margin-left: 230px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+img {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 200px;
+}

@@ -1,0 +1,28 @@
+a:hover{
+    color: red;
+}
+
+.ver_1 td {
+    box-shadow: inset -1px 0 0 red;
+}
+
+.ver_1 tr td:last-of-type {
+    box-shadow: 0;
+}
+
+.ver_2 a{
+    text-align: center;
+    border-right: 4px solid red;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.ver_2 a:last-of-type {
+    border: 0;
+}
+
+.ver_3 {
+    padding-left: 3px;
+    display: inline-block;
+
+}

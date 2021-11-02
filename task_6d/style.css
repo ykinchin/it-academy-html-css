@@ -11,13 +11,13 @@
 }
 
 .rating_item::before {
-    content: '★';
+    content: url(images/star_3.png);
     display: block;
 }
 
 .rating_item:hover ~ .rating_item,
  .rating_item:hover {
-    color: red;
+    content: url(images/star_2.png);
 }
 
 

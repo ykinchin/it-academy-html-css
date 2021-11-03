@@ -8,6 +8,7 @@ td {
     height: 50px;
     background-color: black;
 }
+
 tr:nth-of-type(odd)>td:nth-of-type(odd) {
     background-color: white;
 }
@@ -30,10 +31,10 @@ tr>td:first-of-type, tr>td:last-of-type {
     border: 1px solid blueviolet;
     background-color: green !important;
 }
+
 tr:first-of-type>td, tr:last-of-type>td {
     height: 20px;
     width: 50px;
     border: 1px solid blueviolet;
     background-color: green !important;
 }
-

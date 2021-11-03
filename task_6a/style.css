@@ -1,28 +1,32 @@
-a:hover{
+div {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ver_2, .ver_3 {
+    margin-left: 10px;
+}
+
+a:hover {
     color: red;
 }
 
-.ver_1 td {
+td:not(td:last-of-type){
+    border-right: 3px solid red;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.ver_2 a:not(a:last-of-type){
     box-shadow: inset -1px 0 0 red;
 }
 
-.ver_1 tr td:last-of-type {
-    box-shadow: 0;
-}
-
 .ver_2 a{
-    text-align: center;
-    border-right: 4px solid red;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 20px;
 }
 
-.ver_2 a:last-of-type {
-    border: 0;
-}
-
-.ver_3 {
-    padding-left: 3px;
-    display: inline-block;
-
+.ver_3 a:not(a:last-of-type)::after {
+    content: '|';
+    color: red;
+    padding: 10px;
 }

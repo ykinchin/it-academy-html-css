@@ -8,15 +8,13 @@ td {
     height: 50px;
     background-color: black;
 }
-
-tr:not(tr:first-of-type) ~ tr:nth-of-type(odd)>td:nth-of-type(odd) {
+tr:nth-of-type(odd)>td:nth-of-type(odd) {
     background-color: white;
 }
 
 tr:nth-of-type(even)>td:nth-of-type(even) {
     background-color: white;
 }
-
 
 tr:first-of-type>td:first-of-type, 
 tr:first-of-type>td:last-of-type,

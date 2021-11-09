@@ -1,0 +1,20 @@
+.rating_items {
+    position: absolute;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.rating_item {
+    cursor: pointer;
+    color: black;
+}
+
+.rating_item::before {
+    content: url(images/star_3.png);
+    display: block;
+}
+
+.rating_item:hover ~ .rating_item,
+ .rating_item:hover {
+    content: url(images/star_2.png);
+}
